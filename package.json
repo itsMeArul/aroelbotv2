@@ -1,0 +1,30 @@
+{
+  "name": "aroelbot-v2",
+  "version": "3.0.0",
+  "description": "Modern Discord bot with API-based license management",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "register": "node src/register-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "license",
+    "api",
+    "whitelist"
+  ],
+  "author": "Aroel",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "pelindajs": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
